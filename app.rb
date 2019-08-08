@@ -10,7 +10,9 @@ class App < Sinatra::Base
   end 
   
   get "/say/:number/:phrase" do 
-    "#{params[:phrase]
+    "#{params[:phrase]}"
   end 
+  
+  get 
 
 end
